@@ -1,0 +1,30 @@
+# Laravel
+/vendor/
+public/hot
+public/storage
+storage/*.key
+.env
+
+# Node
+node_modules/
+npm-debug.log
+
+# Other
+.idea/
+.php_cs.cache
+.phpunit.result.cache
+
+note.txt
+
+_ide_helper_models.php
+_ide_helper.php
+
+
+public/js/*
+public/css/*
+public/fonts/*
+
+public/mix-manifest.json
+public/vendor/livewire/livewire.js
+public/vendor/livewire/livewire.js.map
+public/vendor/livewire/manifest.json

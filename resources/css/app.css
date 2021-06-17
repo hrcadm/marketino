@@ -1,0 +1,37 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.pagination > div,
+.pagination > nav {
+    width: 100%;
+}
+
+a.filter-btn {
+    @apply inline-flex items-center px-4 py-2 ml-2;
+    @apply bg-gray-400 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest;
+    @apply transition ease-in-out duration-150;
+}
+
+a.filter-btn.active {
+    @apply bg-gray-700;
+}
+
+div.spinner {
+    position: absolute;
+}
+
+nav.card-tabs a {
+    @apply whitespace-no-wrap ml-8 py-4 px-1;
+    @apply border-transparent text-gray-500;
+}
+nav.card-tabs a:hover,
+nav.card-tabs a:focus {
+    @apply text-gray-700 border-gray-300;
+}
+nav.card-tabs a.active {
+    @apply border-indigo-500 text-indigo-600;
+}
+nav.card-tabs a.active:focus {
+    @apply outline-none text-indigo-800 border-indigo-700;
+}
